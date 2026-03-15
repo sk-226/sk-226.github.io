@@ -17,4 +17,10 @@ Edit Markdown files in `content/` to update pages. The dev server watches for ch
 
 ## Deploy
 
-Push to GitHub and configure GitHub Pages to deploy from the `gh-pages` branch, or use `npx quartz build` to generate static files in `public/`.
+This site is deployed with GitHub Actions.
+
+1. In GitHub, open `Settings > Pages`.
+2. Set `Source` to `GitHub Actions`.
+3. Push to `main` to trigger a build and deploy.
+
+To build the static site locally, run `npx quartz build`. The generated files will be written to `public/`.
