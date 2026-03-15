@@ -123,6 +123,9 @@ Notes:
   - If the change was in config, layout, plugins, or build pipeline code, restart `npx quartz build --serve`.
 - Tooling errors after dependency changes:
   - Run `npm install` again from the repo root.
+- `npm run check` failed even though app code looks fine:
+  - That command runs `tsc --noEmit` and `prettier . --check` across the repo.
+  - Inspect the reported file list before assuming the Quartz app itself is broken.
 
 ## How to update this skill
 
