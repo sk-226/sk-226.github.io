@@ -1,0 +1,42 @@
+@use "./base.scss";
+
+.page {
+  max-width: 700px;
+
+  & > #quartz-body {
+    display: block;
+
+    & .sidebar.left {
+      position: initial;
+      height: unset;
+      padding: 2rem 0 0 0;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    & .sidebar.right {
+      display: none;
+    }
+
+    & .center {
+      margin: 0 auto;
+      padding: 1rem 0 2rem 0;
+    }
+  }
+}
+
+.page-title {
+  font-size: 1.1rem;
+}
+
+footer {
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+
+article a.internal {
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: var(--lightgray);
+  text-underline-offset: 3px;
+}
