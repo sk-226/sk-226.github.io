@@ -2,22 +2,15 @@
 title: About
 ---
 
-## 自己紹介
+I'm Suguru. You may also know me as sk-226, currently studying numerical linear algebra.
 
-sk-226 です。ソフトウェアエンジニアとして活動しています。
+Interested in numerical linear algebra, matrix computation, and machine learning.
 
-技術やデザイン、日常について考えたことをこのサイトに書いています。
+## Projects
 
-## 興味
+- [ssdownload](https://github.com/sk-226/ssdownload): A tool to download matrices from the SuiteSparse Matrix Collection.
 
-- ソフトウェア開発
-- デザイン
-- オープンソース
+## Links
 
-## リンク
-
-- [GitHub](https://github.com/sk-226)
-
----
-
-_このページの内容は仮のものです。後で編集してください。_
+- GitHub: [@sk-226](https://github.com/sk-226)
+- X (Twitter): [@suguru_sk226](https://x.com/suguru_sk226)

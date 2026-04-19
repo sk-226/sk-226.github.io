@@ -2,9 +2,9 @@
 title: sk-226
 ---
 
-こんにちは、sk-226 です。
+I'm Suguru. You may also know me as sk-226, currently studying numerical linear algebra.
 
-このサイトは私の個人サイトです。考えたことや学んだことを書いていきます。
+Interested in numerical linear algebra, matrix computation, and machine learning.
 
 ## ページ
 
