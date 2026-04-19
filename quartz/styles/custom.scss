@@ -94,3 +94,11 @@ article > h6 > a[role="anchor"] {
     fill: var(--link-hover);
   }
 }
+
+::selection {
+  background: #eaf2e6;
+}
+
+:root[saved-theme="dark"] ::selection {
+  background: #142726;
+}
