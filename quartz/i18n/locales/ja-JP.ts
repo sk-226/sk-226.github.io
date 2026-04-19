@@ -28,6 +28,7 @@ export default {
     themeToggle: {
       lightMode: "ライトモード",
       darkMode: "ダークモード",
+      switchTheme: "配色テーマを切り替える",
     },
     readerMode: {
       title: "リーダーモード",

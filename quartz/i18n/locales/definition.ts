@@ -31,6 +31,7 @@ export interface Translation {
     themeToggle: {
       lightMode: string
       darkMode: string
+      switchTheme: string
     }
     readerMode: {
       title: string
