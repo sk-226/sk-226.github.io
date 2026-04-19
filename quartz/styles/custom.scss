@@ -67,3 +67,30 @@ article a.internal {
     color: var(--link-hover);
   }
 }
+
+article > h1 > a[role="anchor"],
+article > h2 > a[role="anchor"],
+article > h3 > a[role="anchor"],
+article > h4 > a[role="anchor"],
+article > h5 > a[role="anchor"],
+article > h6 > a[role="anchor"] {
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+.darkmode {
+  @media (prefers-reduced-motion: no-preference) {
+    & svg {
+      transition:
+        fill 0.15s ease,
+        opacity 0.1s ease;
+    }
+  }
+
+  &:hover svg {
+    fill: var(--link-hover);
+  }
+}
