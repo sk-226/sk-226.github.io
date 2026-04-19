@@ -34,6 +34,24 @@
   font-size: 1.1rem;
 }
 
+.about-link {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #6f6e69;
+
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+:root[saved-theme="dark"] .about-link {
+  color: #7e7c77;
+
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
 footer {
   opacity: 0.6;
   font-size: 0.85rem;

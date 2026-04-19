@@ -23,7 +23,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
-      components: [{ Component: Component.Darkmode() }],
+      components: [
+        { Component: Component.AboutLink() },
+        { Component: Component.Darkmode() },
+      ],
     }),
   ],
   right: [],
@@ -35,7 +38,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
-      components: [{ Component: Component.Darkmode() }],
+      components: [
+        { Component: Component.AboutLink() },
+        { Component: Component.Darkmode() },
+      ],
     }),
   ],
   right: [],
