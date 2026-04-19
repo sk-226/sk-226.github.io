@@ -8,7 +8,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: false,
     analytics: null,
-    locale: "ja-JP",
+    locale: "en-US",
     baseUrl: "sk-226.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
