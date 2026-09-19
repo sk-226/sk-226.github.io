@@ -1,6 +1,2 @@
-node_modules/
-public/
-.quartz-cache/
-prof/
-.replit
-tsconfig.tsbuildinfo
+_site/
+.DS_Store
